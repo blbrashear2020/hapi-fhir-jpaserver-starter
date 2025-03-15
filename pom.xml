@@ -40,7 +40,11 @@
             </snapshots>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
-    </repositories>
+    <repository>
+        <id>hapi.fhir.repository</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+</repositories>
 
     <dependencyManagement>
        <dependencies>
@@ -711,6 +715,6 @@
                     <version>1.17.0</version>
                 </dependency>
             </dependencies>
-        </profile>       
+        </profile>
     </profiles>
 </project>
